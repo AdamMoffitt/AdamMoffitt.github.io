@@ -628,17 +628,16 @@ ul.portfolio-image li img {
   height: 100%;
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(100%);
   transition: filter, transform, 0.5s;
 }
-ul.portfolio-image li .decription-wrap {
+ul.portfolio-image li .description-wrap {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background: rgba(242, 242, 242, 0.4);
-  padding: 20px;
+  padding: 5px;
   transition: background, 0.5s;
 }
 ul.portfolio-image li .image-bg {
@@ -665,6 +664,18 @@ ul.portfolio-image li .image-bg {
   font-weight: 300;
   color: transparent;
 }
+ul.portfolio-image li .title{
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 0;
+  display: table-cell;
+  right: 0;
+  text-align: center;
+  color: #2f2f2f;
+  font-size: 18px;
+  font-weight: 700;
+}
 ul.portfolio-image li .desc{
   position: absolute;
   z-index: 1;
@@ -674,9 +685,14 @@ ul.portfolio-image li .desc{
   right: 0;
   text-align: center;
   color: #2f2f2f;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 500;
 }
+
+ul.portfolio-image li .trojamsDesktop{
+  font-size: 11px;
+}
+
 
 
 /*---------- b. service -----------*/
