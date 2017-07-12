@@ -704,7 +704,7 @@ ul.portfolio-image li .trojamsDesktop{
   margin: 0;
 }
 .head-sm {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-top: 5px;
@@ -716,7 +716,18 @@ ul.portfolio-image li .trojamsDesktop{
   color: #434343;
   line-height: 26px;
   margin-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Roboto';
 }
+
+ul.text-grey li {
+  color: #434343;
+  line-height: 26px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
 /*---------- c. experience -----------*/
 .wrap-card {
   position: relative;
