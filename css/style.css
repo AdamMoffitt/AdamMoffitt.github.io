@@ -703,6 +703,11 @@ ul.portfolio-image li .trojamsDesktop{
   color: #818181;
   margin: 0;
 }
+.employmentImage{
+  width:250;
+  height:200;
+  margin:5px;
+}
 .head-sm {
   font-size: 14px;
   letter-spacing: 1.5px;
