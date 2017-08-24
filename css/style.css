@@ -708,6 +708,10 @@ ul.portfolio-image li .trojamsDesktop{
   height:200;
   margin:5px;
 }
+
+.employmentText{
+  height: 100%;
+}
 .head-sm {
   font-size: 14px;
   letter-spacing: 1.5px;
