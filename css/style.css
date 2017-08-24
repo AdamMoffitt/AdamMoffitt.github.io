@@ -779,8 +779,13 @@ ul.text-grey li {
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: 1px solid rgba(129, 129, 129, 0.1);
-  height:400px;
+  height:350px;
 }
+
+.big{
+  height: 600px;
+}
+
 .card:before,
 .card:after {
   display: inline-block;
