@@ -503,7 +503,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url("https://scontent.xx.fbcdn.net/v/t1.0-9/1918369_10208170860605884_7558226449657231022_n.jpg?oh=70e9a2e8a74cba55cbb1bc1356ca5faf&oe=59C4EA5C");
+  background: url(../images/adam_beach_horse.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
