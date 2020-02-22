@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Developer.", "Entrepreneur.", "Novice Surfer.", "French Toast Connoisseur.", "My Name is Adam Moffitt"],
+        strings: ["Developer.", "Entrepreneur.", "French Toast Connoisseur.", "Software Engineer.", "Novice Surfer.", "Leader", "Team Member.", "My name is Adam Moffitt."],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -142,7 +142,15 @@
       type: 'image',
       gallery: {
         enabled: true
-      }
+      },
+      image: {
+      titleSrc: function(item) {
+        return '<a href="' + item.el.attr('href') + '">' + item.el.attr('href') + '</a>';
+        },
+      tError: '<a href="https://github.com/AdamMoffitt/portfolio">Find the full project at https://github.com/AdamMoffitt/portfolio </a>',
+      // this tells the script which attribute has your caption
+    }
+
       // other options
     });
 
